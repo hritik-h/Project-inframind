@@ -7,8 +7,8 @@ import csv
 upto = date.today()
 since = upto - timedelta(days = 30)
 
-auth = tweepy.OAuthHandler('NRiMpFEGuGBZdYuUGqFx6jHKw', 'DyC81HQp0clndydDXwMQNXFQUEyZqxp8ISlPueBVvZiMPFtYZh')
-auth.set_access_token('842279246999506945-cZMLYn5wfddox2nE8TRMvBFbAwNhMX9', '5I3l7DhAG1gnYa09Ub3NMki9VDHZP22XKp8LxEQWxTvcs')
+auth = tweepy.OAuthHandler('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
+auth.set_access_token('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
 			
 api = tweepy.API(auth)
 #value=User_Handle.get()
